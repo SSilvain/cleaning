@@ -1,0 +1,37 @@
+mixin order-addr(ico, title, subtitle)
+	.col-6
+		.order__block(class='order__block--' + ico)
+			h3.order__title= title
+			p.order__subtitle= subtitle
+
+
+
+
+section.order.container
+	.row
+		.col-md-12.col-xl-5.offset-xl-1
+			h2.order__caption Хотите заказать уборку у нас? Оставьте заявку!
+			p.order__subcaption Благодарим вас за то, что вы интересуетесь нашей компанией.
+			.row.d-none.d-xl-flex
+				+order-addr('address', 'Адрес', 'Московский пр., Калининград, Калининградская обл., 236006')
+				+order-addr('email', 'E-Mail', 'cleaning24@gmaill.com')
+				+order-addr('phone', 'Номер', '+7(800)225-20-20')
+				+order-addr('clock', 'Часы работы', 'Мы работаем каждый день с 8:00 до 21:00')
+		.col-sm-12.col-md-6.offset-md-3.col-xl-5.offset-xl-0
+			.order__form
+				.row
+					.col-sm-12.col-xl-6.p-2
+						input.order__input(placeholder="Имя")
+					.col-sm-12.col-xl-6.p-2
+						input.order__input(placeholder="Фамилия")
+					.col-sm-12.col-xl-6.p-2
+						input.order__input(placeholder="E-mail")
+					.col-sm-12.col-xl-6.p-2
+						input.order__input(placeholder="Телефон")
+				.row
+					.col-sm-12.p-2
+						textarea.order__textarea(placeholder="Текст сообщения")
+				.row
+					.col.p-2
+						button.order__button Оставить заявку
+

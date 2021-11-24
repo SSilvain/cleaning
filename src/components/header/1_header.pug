@@ -1,0 +1,27 @@
+mixin card(img, text)
+	.col-sm-12.col-lg.p-sm-1.p-md-3&attributes(attributes)
+		.card
+			.card__ico(class='card__ico--' + img)
+			p.card__text= text
+		
+		
+section.header.container
+	.row 
+		.col-xxl-3.col-xs-12
+			.logo
+				img.logo__img(src='img/logo.svg', alt='logo')
+		.col-xxl-6.col-xs-12
+			.header__scedule Работаем с 8:00 до 21:00 <br /> без выходных
+	.row 
+		.col
+			h1.header__caption.d-none.d-lg-block Лучшие клининговые услуги
+			a.phone.header__phone.d-lg-none(href='tel:+78002552020') +7 (800) 255-20-20
+			p.header__text Разовая и постоянная уборка квартир и офисов по всей Калининградской области!
+				span.d-none.d-lg-inline Быстро, аккуратно и с хорошими скидками до 50%
+			button.header__button Оформить заявку прямо сейчас
+	.row.card-wrapper
+		.col-lg-10.offset-sm-0.offset-lg-1
+			.row
+				+card('clock', 'В УДОБНОЕ ДЛЯ ВАС ВРЕМЯ')
+				+card('pig', 'НИЗКИЕ ЦЕНЫ НА УБОРКУ')
+				+card('cup', 'ГАРАНТИЯ ЧИСТОТЫ И УЮТА')
