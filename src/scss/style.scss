@@ -1,4 +1,4 @@
-@use "sass:math";
+@use 'sass:math';
 :root{
 	--color-master: #000000;
 	--color-secondary: #ffffff;
@@ -6,24 +6,28 @@
 	--color-link: #0066FF;
 	--color-footer-text: #8F8F8F;
 	--color-bg-body:#F2F2F2;
-	--color-bg-services: #DEF5FF;
+	--color-bg-services:#DEF5FF;
 }
 
-@import "../../node_modules/bootstrap/dist/css/bootstrap-grid";
-@import "../../node_modules/bootstrap/dist/css/bootstrap-reboot";
+@import '../../node_modules/bootstrap/dist/css/bootstrap-grid';
+@import '../../node_modules/bootstrap/dist/css/bootstrap-reboot';
 
 body{
-	font-family: "Abel", Arial, Helvetica, sans-serif;
+	font-family: 'Abel', Arial, Helvetica, sans-serif;
 	background-color: var(--color-bg-body);
 }
-@import "mixins";
 
-@import "font";
+@import 'mixins';
 
-@import "components";
-// @import "popup";
-@import "../components/header/1_header";
-@import "../components/services/services";
-@import "../components/order/order";
-@import "../components/gallery/gallery";
+@import 'font';
+
+@import 'components';
+//@import 'popup';
+@import '../components/header/1_header';
+@import '../components/services/services';
+@import '../components/order/order';
+@import '../components/gallery/gallery';
+@import '../components/reviews/reviews';
+@import '../components/about/about';
+@import '../components/footer/footer';
 

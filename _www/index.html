@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -7,154 +7,247 @@
     <title>Home</title>
   </head>
   <body>
-    <div class="wrapper">
-      <main class="page">
-        <!--header-->
-        <section class="header container">
-          <div class="row"> 
-            <div class="col-xxl-3 col-xs-12">
-              <div class="logo"><img class="logo__img" src="img/logo.svg" alt="logo"></div>
-            </div>
-            <div class="col-xxl-6 col-xs-12">
-              <div class="header__scedule">Работаем с 8:00 до 21:00 <br /> без выходных</div>
-            </div>
+    <header class="header container">
+      <div class="row"> 
+        <div class="col-xxl-3">
+          <div class="logo"><img class="logo__img" src="img/logo.svg" alt="logo"></div>
+        </div>
+        <div class="col-xxl-6">
+          <div class="header__scedule">Работаем с 8:00 до 21:00 <br /> без выходных</div>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col">
+          <h1 class="header__caption d-none d-lg-block">Лучшие клининговые услуги</h1><a class="phone header__phone d-lg-none" href="tel:+78002552020">+7 (800) 255-20-20</a>
+          <p class="header__text">Разовая и постоянная уборка квартир и офисов по всей Калининградской области!<span class="d-none d-lg-inline">Быстро, аккуратно и с хорошими скидками до 50%</span></p>
+          <button class="header__button">Оформить заявку прямо сейчас</button>
+        </div>
+      </div>
+      <div class="row card-wrapper">
+        <div class="offset-sm-0 col-lg-10 offset-lg-1">
+          <div class="row">
+                <div class="col-sm-12 py-3 col-lg p-sm-1 p-md-3">
+                  <div class="card">
+                    <div class="card__ico card__ico--clock"></div>
+                    <p class="card__text">В УДОБНОЕ ДЛЯ ВАС ВРЕМЯ</p>
+                  </div>
+                </div>
+                <div class="col-sm-12 py-3 col-lg p-sm-1 p-md-3">
+                  <div class="card">
+                    <div class="card__ico card__ico--pig"></div>
+                    <p class="card__text">НИЗКИЕ ЦЕНЫ НА УБОРКУ</p>
+                  </div>
+                </div>
+                <div class="col-sm-12 py-3 col-lg p-sm-1 p-md-3">
+                  <div class="card">
+                    <div class="card__ico card__ico--cup"></div>
+                    <p class="card__text">ГАРАНТИЯ ЧИСТОТЫ И УЮТА</p>
+                  </div>
+                </div>
           </div>
-          <div class="row"> 
-            <div class="col">
-              <h1 class="header__caption d-none d-lg-block">Лучшие клининговые услуги</h1><a class="phone header__phone d-lg-none" href="tel:+78002552020">+7 (800) 255-20-20</a>
-              <p class="header__text">Разовая и постоянная уборка квартир и офисов по всей Калининградской области!<span class="d-none d-lg-inline">Быстро, аккуратно и с хорошими скидками до 50%</span></p>
-              <button class="header__button">Оформить заявку прямо сейчас</button>
+        </div>
+      </div>
+    </header>
+    <section class="services container">
+      <div class="row"> 
+        <div class="col">
+          <h1 class="services__caption">Наши цены и услуги</h1>
+          <p class="services__subcaption">Качественные услуги клининга и химчистки по дооступным ценами</p>
+        </div>
+      </div>
+      <div class="row">
+            <div class="col-sm-12 col-lg-6 p-sm-1 p-md-3">
+              <div class="services__block services__block--1">
+                <h2 class="services__title">Экспресс уборка от 50 р./кв.м.</h2>
+                <p class="services__subtitle">Мытье полов, протирка пыли и кухонного гарнитура, чистка сантехники, мытье зеркал</p>
+              </div>
             </div>
+            <div class="col-sm-12 col-lg-6 p-sm-1 p-md-3">
+              <div class="services__block services__block--2">
+                <h2 class="services__title">Генеральная уборка от 80 р./кв.м.</h2>
+                <p class="services__subtitle">Экспресс уборка + чистка и обезжиривание холодильника, плиты и духового шкафа, протирка светильников и радиаторов, мытье стен в ванной</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 p-sm-1 p-md-3">
+              <div class="services__block services__block--3">
+                <h2 class="services__title">Послестроительная уборка от 90 р./кв.м.</h2>
+                <p class="services__subtitle">Генеральная уборка + вынос строительного мусора, влажная уборка всего помещения до полной ликвидации строительной пыли</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6 p-sm-1 p-md-3">
+              <div class="services__block services__block--4">
+                <h2 class="services__title">Уборка офисов (цена договорная от 30 р./кв.м.)</h2>
+                <p class="services__subtitle">Разовая или постоянная влажная уборка в офисных, торговых, производственных помещениях</p>
+              </div>
+            </div>
+      </div>
+    </section>
+    <section class="order container">
+      <div class="row">
+        <div class="col-md-12 col-xl-5 offset-xl-1">
+          <h2 class="order__caption">Хотите заказать уборку у нас? Оставьте заявку!</h2>
+          <p class="order__subcaption">Благодарим вас за то, что вы интересуетесь нашей компанией.</p>
+          <div class="row d-none d-xl-flex">
+                <div class="col-6">
+                  <div class="order__block order__block--address">
+                    <h3 class="order__title">Адрес</h3>
+                    <p class="order__subtitle">Московский пр., Калининград, Калининградская обл., 236006</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="order__block order__block--email">
+                    <h3 class="order__title">E-Mail</h3>
+                    <p class="order__subtitle">cleaning24@gmaill.com</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="order__block order__block--phone">
+                    <h3 class="order__title">Номер</h3>
+                    <p class="order__subtitle">+7(800)225-20-20</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="order__block order__block--clock">
+                    <h3 class="order__title">Часы работы</h3>
+                    <p class="order__subtitle">Мы работаем каждый день с 8:00 до 21:00</p>
+                  </div>
+                </div>
           </div>
-          <div class="row card-wrapper">
-            <div class="col-lg-10 offset-sm-0 offset-lg-1">
-              <div class="row">
-                        <div class="col-sm-12 col-lg p-sm-1 p-md-3">
-                          <div class="card">
-                            <div class="card__ico card__ico--clock"></div>
-                            <p class="card__text">В УДОБНОЕ ДЛЯ ВАС ВРЕМЯ</p>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-lg p-sm-1 p-md-3">
-                          <div class="card">
-                            <div class="card__ico card__ico--pig"></div>
-                            <p class="card__text">НИЗКИЕ ЦЕНЫ НА УБОРКУ</p>
-                          </div>
-                        </div>
-                        <div class="col-sm-12 col-lg p-sm-1 p-md-3">
-                          <div class="card">
-                            <div class="card__ico card__ico--cup"></div>
-                            <p class="card__text">ГАРАНТИЯ ЧИСТОТЫ И УЮТА</p>
-                          </div>
-                        </div>
+        </div>
+        <div class="col-sm-12 col-md-6 offset-md-3 col-xl-5 offset-xl-0">
+          <div class="order__form container">
+            <div class="row">
+              <div class="col-sm-12 col-xl-6 p-2">
+                <input class="order__input" placeholder="Имя">
+              </div>
+              <div class="col-sm-12 col-xl-6 p-2">
+                <input class="order__input" placeholder="Фамилия">
+              </div>
+              <div class="col-sm-12 col-xl-6 p-2">
+                <input class="order__input" placeholder="E-mail">
+              </div>
+              <div class="col-sm-12 col-xl-6 p-2">
+                <input class="order__input" placeholder="Телефон">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 p-2">
+                <textarea class="order__textarea" placeholder="Текст сообщения"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col p-2">
+                <button class="order__button">Оставить заявку</button>
               </div>
             </div>
           </div>
-        </section>
-        <section class="services container">
-          <div class="row"> 
-            <div class="col">
-              <h1 class="services__caption">Наши цены и услуги</h1>
-              <p class="services__subcaption">Качественные услуги клининга и химчистки по дооступным ценами</p>
+        </div>
+      </div>
+    </section>
+    <section class="gallery container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="gallery__caption">Примеры наших работ</div>
+          <p class="gallery__subcaption">Отчистим самую грязную мебель и  вычистим любую квартиру</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-10 offset-lg-1">
+          <div class="row" id="lightgallery"><a class="col-sm-12 col-lg-6 py-1 py-md-2 py-lg-3" href="img/gallery/image-1.webp" data-fslightbox><img class="gallery__img" alt=".." src="img/gallery/image-1.webp"></a><a class="col-sm-12 col-lg-6 py-1 py-md-2 py-lg-3" href="img/gallery/image-4.webp" data-fslightbox><img class="gallery__img" alt=".." src="img/gallery/image-4.webp"></a><a class="col-sm-12 col-lg-6 py-1 py-md-2 py-lg-3" href="img/gallery/image-3.webp" data-fslightbox><img class="gallery__img" alt=".." src="img/gallery/image-3.webp"></a><a class="col-sm-12 col-lg-6 py-1 py-md-2 py-lg-3" href="img/gallery/image-2.webp" data-fslightbox><img class="gallery__img" alt=".." src="img/gallery/image-2.webp"></a></div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews container">
+      <div class="row">
+        <div class="col">
+          <h2 class="reviews__caption">Отзывы клиентов </h2>
+          <p class="reviews__subcaption">Каждый третий клиент заказывает у нас уборку на постоянной основе</p>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col-12 col-xl-10 offset-xl-1">
+          <div class="row">
+                <div class="col-12 col-lg-4 py-3">
+                  <div class="review__card"><img class="review__photo" src="img/review-1.webp" alt="Дмитрий">
+                    <h3 class="review__name">Дмитрий</h3>
+                    <p class="review__text">Надо было быстро освежить обстановку перед праздником, диван, ковры и тд, нашел по отзывам Клининград. Вызвал, приехали быстро, сделали все, что было нужно. Ребята справились, за что им благодарность.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 py-3">
+                  <div class="review__card"><img class="review__photo" src="img/review-2.webp" alt="Александр">
+                    <h3 class="review__name">Александр</h3>
+                    <p class="review__text">Ранее был опыт заказа подобных услуг. Но могу сказать, что далеко не везде так вежливо и культурно относятся к клиентам как здесь. Цены устраивают, работают быстро, качество услуг хорошее</p>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4 py-3">
+                  <div class="review__card"><img class="review__photo" src="img/review-3.webp" alt="Ольга">
+                    <h3 class="review__name">Ольга</h3>
+                    <p class="review__text">Диван был испорчен!! Так не хотелось выбрасывать, а отмыть его казалось просто нереально. Наткнулась в интернете на рекламу, решила обратиться. Была удивлена, что вы так быстро приехали и самое главное смогли его отмыть)) Спасибо!</p>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer__mobile">
+      <section class="about container">
+        <div class="row">
+          <div class="col-12 col-lg-10 offset-lg-1">
+            <h2 class="about__caption">О компании</h2>
+            <p class="about__text-top">Мы – инновационный сервис уборки. Мы позволяем вам привлекать лучших исполнителей уборки в каждом городе, где мы работаем. Уже более 13 лет мы помогаем вам поддерживать чистоту в домах и освобождаем вас от рутины. Специализация нашей платформы на борке и технологическая эффективность даёт нам главное преимущество – опытных исполнителей и стабильное качество услуг.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-xl-10 offset-xl-1">
+            <div class="row">
+                    <div class="col-12 col-lg-4 py-3">
+                      <div class="about__card about__card--house">
+                        <h3 class="about__title">Удобный сервис</h3>
+                        <ul class="about__list">
+                          <li class="about__item">все клининговые услуги в одном месте</li>
+                          <li class="about__item">сдача ключей - уборка без вас.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-4 py-3">
+                      <div class="about__card about__card--list">
+                        <h3 class="about__title">Большой опыт</h3>
+                        <ul class="about__list">
+                          <li class="about__item">Более 13 лет на рынке</li>
+                          <li class="about__item">Свыше 300 000 уборок</li>
+                          <li class="about__item">80 000 клиентов</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-4 py-3">
+                      <div class="about__card about__card--cleaning">
+                        <h3 class="about__title">Лучшие исполнители</h3>
+                        <ul class="about__list">
+                          <li class="about__item">Многоступенчатая подготовка</li>
+                          <li class="about__item">Собственное учебное место</li>
+                          <li class="about__item">Своя система мотивации </li>
+                        </ul>
+                      </div>
+                    </div>
             </div>
           </div>
-          <div class="row">
-                    <div class="col-sm-12 col-lg-6 p-sm-1 p-md-3">
-                      <div class="services__block services__block--1">
-                        <h2 class="services__title">Экспресс уборка от 50 р./кв.м.</h2>
-                        <p class="services__subtitle">Мытье полов, протирка пыли и кухонного гарнитура, чистка сантехники, мытье зеркал</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-6 p-sm-1 p-md-3">
-                      <div class="services__block services__block--2">
-                        <h2 class="services__title">Генеральная уборка от 80 р./кв.м.</h2>
-                        <p class="services__subtitle">Экспресс уборка + чистка и обезжиривание холодильника, плиты и духового шкафа, протирка светильников и радиаторов, мытье стен в ванной</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-6 p-sm-1 p-md-3">
-                      <div class="services__block services__block--3">
-                        <h2 class="services__title">Послестроительная уборка от 90 р./кв.м.</h2>
-                        <p class="services__subtitle">Генеральная уборка + вынос строительного мусора, влажная уборка всего помещения до полной ликвидации строительной пыли</p>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-6 p-sm-1 p-md-3">
-                      <div class="services__block services__block--4">
-                        <h2 class="services__title">Уборка офисов (цена договорная от 30 р./кв.м.)</h2>
-                        <p class="services__subtitle">Разовая или постоянная влажная уборка в офисных, торговых, производственных помещениях</p>
-                      </div>
-                    </div>
-          </div>
-        </section>
-        <section class="order container">
-          <div class="row">
-            <div class="col-md-12 col-xl-5 offset-xl-1">
-              <h2 class="order__caption">Хотите заказать уборку у нас? Оставьте заявку!</h2>
-              <p class="order__subcaption">Благодарим вас за то, что вы интересуетесь нашей компанией.</p>
-              <div class="row d-none d-xl-flex">
-                        <div class="col-6">
-                          <div class="order__block order__block--address">
-                            <h3 class="order__title">Адрес</h3>
-                            <p class="order__subtitle">Московский пр., Калининград, Калининградская обл., 236006</p>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="order__block order__block--email">
-                            <h3 class="order__title">E-Mail</h3>
-                            <p class="order__subtitle">cleaning24@gmaill.com</p>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="order__block order__block--phone">
-                            <h3 class="order__title">Номер</h3>
-                            <p class="order__subtitle">+7(800)225-20-20</p>
-                          </div>
-                        </div>
-                        <div class="col-6">
-                          <div class="order__block order__block--clock">
-                            <h3 class="order__title">Часы работы</h3>
-                            <p class="order__subtitle">Мы работаем каждый день с 8:00 до 21:00</p>
-                          </div>
-                        </div>
+        </div>
+      </section>
+      <footer class="footer container">
+        <div class="row">
+          <div class="col-12 col-lg-10 offset-lg-1">
+            <div class="row">
+              <div class="col-12 col-lg-4">
+                <div class="logo footer__logo"><img class="logo__img" src="img/logo.svg" alt="logo"></div>
               </div>
-            </div>
-            <div class="col-sm-12 col-md-6 offset-md-3 col-xl-5 offset-xl-0">
-              <div class="order__form">
-                <div class="row">
-                  <div class="col-sm-12 col-xl-6 p-2">
-                    <input class="order__input" placeholder="Имя">
-                  </div>
-                  <div class="col-sm-12 col-xl-6 p-2">
-                    <input class="order__input" placeholder="Фамилия">
-                  </div>
-                  <div class="col-sm-12 col-xl-6 p-2">
-                    <input class="order__input" placeholder="E-mail">
-                  </div>
-                  <div class="col-sm-12 col-xl-6 p-2">
-                    <input class="order__input" placeholder="Телефон">
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-sm-12 p-2">
-                    <textarea class="order__textarea" placeholder="Текст сообщения"></textarea>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col p-2">
-                    <button class="order__button">Оставить заявку</button>
-                  </div>
-                </div>
+              <div class="col-12 col-lg-4">
+                <p class="footer__text">Московский пр., Калининград, Калининградская обл., 236006</p>
               </div>
+              <div class="col-12 col-lg-4"><a class="phone footer__phone" href="tel:+78002552020">+7 (800) 255-20-20</a></div>
             </div>
           </div>
-        </section>
-        <section class="gallery container">
-          <div class="row">
-            <div class="col-10 offset-1">
-              <div class="row" id="lightgallery"><a class="col-sm-12 col-lg-6 py-1 py-md-2 py-lg-3" href="img/gallery/image-1.webp" data-fslightbox><img class="gallery__img" alt=".." src="img/gallery/image-1.webp"></a><a class="col-sm-12 col-lg-6 py-1 py-md-2 py-lg-3" href="img/gallery/image-4.webp" data-fslightbox><img class="gallery__img" alt=".." src="img/gallery/image-4.webp"></a><a class="col-sm-12 col-lg-6 py-1 py-md-2 py-lg-3" href="img/gallery/image-3.webp" data-fslightbox><img class="gallery__img" alt=".." src="img/gallery/image-3.webp"></a><a class="col-sm-12 col-lg-6 py-1 py-md-2 py-lg-3" href="img/gallery/image-2.webp" data-fslightbox><img class="gallery__img" alt=".." src="img/gallery/image-2.webp"></a></div>
-            </div>
-          </div>
-        </section>
-      </main>
+        </div>
+      </footer>
     </div>
     <script src="js/libs/fslightbox.js"></script>
     <script src="js/main.min.js"></script>

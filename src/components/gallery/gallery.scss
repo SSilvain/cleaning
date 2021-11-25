@@ -1,13 +1,38 @@
-.gallery{
+.gallery {
+	padding-top: rem(30);
+	padding-bottom: rem(30);
 }
-.gallery__img{
+
+.gallery__caption {
+	font-size: rem(34);
+	line-height: rem(44);
+	text-align: center;
+
+	@media (min-width: 578px) {
+		font-size: rem(48);
+		line-height: rem(61);
+	}
+}
+
+.gallery__subcaption {
+	font-size: rem(18);
+	line-height: rem(22);
+	text-align: center;
+
+	@media (min-width: 992px) {
+		font-size: rem(24);
+		line-height: rem(30);
+	}
+}
+
+.gallery__img {
 	width: 100%;
-	height: auto;
 	height: 100%;
 	object-fit: cover;
+
 	@media (min-width: 992px) {
 		width: 100%;
 		object-fit: cover;
-		
+
 	}
 }

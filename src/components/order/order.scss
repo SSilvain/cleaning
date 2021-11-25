@@ -1,14 +1,17 @@
 .order {
-	padding: rem(20) 0;
+	padding-top: rem(20);
+	padding-bottom: rem(20);
 	background-color: var(--color-bg-services);
 }
 
 .order__caption {
-	font-size: rem(36);
-	line-height: rem(45);
+	font-size: rem(34);
+	line-height: rem(36);
 	text-align: center;
 
-	@media (min-width: 1200px) {
+	@media (min-width: 578px) {
+		font-size: rem(48);
+		line-height: rem(61);
 		text-align: left;
 	}
 }
